@@ -124,13 +124,7 @@ matrix:
 #                   -DWITH_SSL=system -DWITH_ZLIB=system
 #                   -DWITHOUT_TOKUDB_STORAGE_ENGINE=ON -DWITHOUT_MROONGA_STORAGE_ENGINE=ON
 #
-#        # The command that will be added as an argument to "cov-build" to compile your project for analysis,
-#        build_command: make -j 4
-#
-#        # Pattern to match selecting branches that will run analysis.
-#        # Take care in resource usage, and consider the build frequency allowances per
-#        #   https://scan.coverity.com/faq#frequency - 7 per week is the current limit.
-#        branch_pattern: .*coverity.*
+
 
 addons:
   apt:
