@@ -7,7 +7,7 @@ dist: trusty
 git:
   depth: 2
 
-language: cpp
+language: c
 os:
   - linux
   - osx
@@ -188,5 +188,5 @@ script:
   - cmake .
            
   - make 
-  
+
   - make test
