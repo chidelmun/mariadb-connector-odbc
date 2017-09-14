@@ -184,7 +184,10 @@ script:
 # Clang:
 #   mroonga just generates too many warnings with clang and travis stops the job
 #   tokudb has fatal warnings
-  - cmake .
+  - mkdir build
+  -cd build
+
+  - cmake ../
            
   - make 
 
